@@ -14,7 +14,7 @@ public class Regex {
 	public static void FirstNameValidation() { // declar the method
 
 		boolean isFirstName;
-		String firstNameRegex = "^[A-Z]{1}[a-z]{2,}$";
+		String firstNameRegex = "^[A-Z]{1}[a-z]{3,}$";
 		Pattern pattern = Pattern.compile(firstNameRegex);
 		if (firstName == null) {
 			isFirstName = false;
